@@ -1,0 +1,1 @@
+import {demoListings} from "@/lib/demo-data";import {ListingTable} from "@/components/marketplace/listing-table";export function RecentListings(){return <section className="panel"><div className="panel-title"><div><h2>Recent P2P listings</h2><p>Latest sample marketplace activity.</p></div></div><ListingTable items={demoListings.slice(0,3)}/></section>}
